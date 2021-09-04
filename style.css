@@ -3,6 +3,7 @@ body {
     font-size: 18px;
     color: white;
     margin: 0;
+    
 
 }
 header {
@@ -18,13 +19,26 @@ header > h1 {
 nav{
     margin: 10px 10%;
     text-align: center;
-
+    
+    
+    
+}
+nav > #a1 {
+    background-color: rgb(38, 126, 38);
+}
+nav:hover > #a2 {
+    background-color: rgb(135, 216, 216);
+}
+nav:hover > #a3 {
+    background-color: rgb(135, 216, 216);
 }
 nav > a {
     padding: 0 10%;
     cursor:pointer;
     text-decoration: none;
     font-size: 20px;
+    color: black;
+    
 }
 
 #Wednesday {
@@ -91,16 +105,19 @@ nav > a {
     height: 20px;
     background-color: black;
 }
+
 #btn-circle{
     width: 50px;
     height: 50px;
     margin-left: 95px;
     border-style: solid;
-    border-color: rgb(2, 2, 48);
+    border-color: rgb(78, 4, 16);
     border-radius: 25px;
-    background-color: blue;
+    background-color: rgb(255, 0, 0);
     display: inline-block;
-
+}
+#btn-circle:hover {
+    background-color: blue;
 }
 #right > .display {
     width: 180px;
